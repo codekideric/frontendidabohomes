@@ -1,0 +1,47 @@
+.slide {
+  width: 100vw;
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../public/assets/home/Livingroom.ed46f71d.svg");
+  background-position: center;
+  background-size: cover;
+
+  h1 {
+   font-size: 70px;
+   font-family: serif;
+   font-weight: 400;
+    color: white;
+  }
+  p{
+    margin: 20px 0;
+    color: #fff;
+    padding: 10px;
+  }
+  span{
+    color: #E0AC57;
+  }
+  .text{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+  }
+  .text p{
+    font-size: 30px;
+  }
+  button {
+    padding: 3px;
+    border: none;
+    background-color:#E0AC57;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+  button:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
